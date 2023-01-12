@@ -4,11 +4,11 @@ for(let i = 2 ; i<= Math.sqrt(n) ; i++)
 {
 if(n%i == 0)
 {
-flag = flase;
+flag = false;
 break;
 }
 }
 if(flag)
-console.log("Yes Prime number");
+console.log("Yes Prime number :)");
 else
-console.log("No Not a Prime");
+console.log("No Not a Prime :(");
